@@ -1,0 +1,50 @@
+package Conta;
+import java.io.IOException;
+
+public class conta{
+
+
+	
+
+	int numeroConta;
+	String titular ;
+	double saldo;
+	
+	
+
+	void depositar(double valor){
+		if(saldo>=0){
+		saldo += valor;	
+		}
+
+	}
+
+	void sacar(int valor){
+		if(saldo>0){
+		saldo -= valor;	
+		}
+
+	}
+
+
+	void exibirSaldo(double saldo){
+		
+	}
+
+
+public static void main(String[] arg) throws IOException{
+
+conta cliente1 = new conta();
+
+cliente1.numeroConta = 3245;
+cliente1.titular  = "Gustavo Freire";
+cliente1.saldo = 0;
+
+cliente1.depositar (10);
+
+cliente1.sacar  (4);
+
+cliente1.exibirSaldo(cliente1.saldo);
+System.out.println("o seu saldo é " + cliente1.saldo);
+}
+}
