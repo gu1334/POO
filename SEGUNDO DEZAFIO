@@ -1,0 +1,25 @@
+package circulo;
+import java.io.IOException;
+
+
+public class circulo
+{
+    float raio;
+    float perimetro;
+    
+    void calcularRaio (float raio){
+        
+        return Math.PI * (2 * raio);
+        
+    }
+    void calcularPerimetro(float perimetro){
+        return 2 * Math.PI * raio;
+    }
+    
+	void main(String[] args) {
+		circulo calcular = new circulo();
+		
+		
+		calcular.calcularRaio = 12.3;
+	}
+}
