@@ -1,0 +1,42 @@
+import java.io.IOException;
+
+public class Cachorro
+{
+    String raca;
+    int tamanho;
+    String cor;
+    boolean temRabo;
+    
+    
+    
+    void late(String raca, int tamanho, String cor, String rabo){
+        
+        System.out.println("Minha raça é " + raca + " tenho " + tamanho + " metros " + " sou " + cor +" e " + mensagem);
+        
+    } 
+    public static String mensagem(boolean temRabo){
+        
+        if(temRabo == true){
+            String mensagem =  " tenho rabo";
+            return  mensagem;
+        }
+        else{
+        
+             String mensagem =  " Não tenho rabo";
+            return  mensagem;
+        }
+    }
+    
+	public static void main(String[] args) {
+
+    Cachorro dog = new Cachorro();
+    dog.raca = "Golden";
+    dog.tamanho = 3;
+    dog.cor = "Amarelo";
+    dog.temRabo = false;
+    
+    dog.late(dog.raca, dog.tamanho, dog.cor, dog.mensagem);
+
+
+	}
+}
