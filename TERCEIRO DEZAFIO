@@ -1,0 +1,25 @@
+import java.io.IOException;
+
+public class Pessoa{
+    String nome;
+    int idade;
+    String cidade;
+    
+    void apresentar(String nome, int idade, String cidade)
+    {
+        System.out.println("Olá meu nome é " + nome + " tenho " + idade + " e sou da cidade de " + cidade);
+    }
+    
+    
+    
+	public static void main(String[] args) {
+	    
+	Pessoa ola = new Pessoa();
+    ola.nome = "Gustavo";
+    ola.idade = 21;
+    ola.cidade = "Santa Luzia";
+    
+    ola.apresentar(ola.nome,ola.idade,ola.cidade);
+    
+	}
+}
