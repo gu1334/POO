@@ -14,12 +14,20 @@ public class Pessoa{
     
 	public static void main(String[] args) {
 	    
-	Pessoa ola = new Pessoa();
-    ola.nome = "Gustavo";
-    ola.idade = 21;
-    ola.cidade = "Santa Luzia";
+	Pessoa ola1 = new Pessoa();
+        Pessoa ola2 = new Pessoa();
+
+    ola1.nome = "Gustavo";
+    ola1.idade = 21;
+    ola1.cidade = "Santa Luzia";
     
-    ola.apresentar(ola.nome,ola.idade,ola.cidade);
+    ola1.apresentar(ola.nome,ola.idade,ola.cidade);{
+     }
+    ola2.nome = "Ana Clara";
+    ola2.idade = 20;
+    ola2.cidade = "Belo Horizonte";
     
-	}
+    ola2.apresentar(ola.nome,ola.idade,ola.cidade);{
+  }
+}
 }
