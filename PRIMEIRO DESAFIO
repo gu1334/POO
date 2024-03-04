@@ -1,7 +1,6 @@
-package Conta;
 import java.io.IOException;
 
-public class conta{
+public class Conta{
 
 
 	
@@ -34,7 +33,7 @@ public class conta{
 
 public static void main(String[] arg) throws IOException{
 
-conta cliente1 = new conta();
+Conta cliente1 = new Conta();
 
 cliente1.numeroConta = 3245;
 cliente1.titular  = "Gustavo Freire";
