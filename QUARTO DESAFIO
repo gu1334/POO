@@ -29,13 +29,21 @@ public class Cachorro
     
 	public static void main(String[] args) {
 
-    Cachorro dog = new Cachorro();
-    dog.raca = "Golden";
-    dog.tamanho = 3;
-    dog.cor = "Amarelo";
-    dog.temRabo = false;
+    Cachorro dog1 = new Cachorro();
+    dog1.raca = "Golden";
+    dog1.tamanho = 3;
+    dog1.cor = "Amarelo";
+    dog1.temRabo = false;
     
-    dog.late(dog.raca, dog.tamanho, dog.cor, dog.mensagem);
+    dog1.late(dog1.raca, dog1.tamanho, dog1.cor, dog1.mensagem);
+
+  Cachorro dog2 = new Cachorro();
+    dog2.raca = "Golden";
+    dog2.tamanho = 3;
+    dog2.cor = "Amarelo";
+    dog2.temRabo = false;
+    
+    dog2.late(dog2.raca, dog2.tamanho, dog2.cor, dog2.mensagem);
 
 
 	}
